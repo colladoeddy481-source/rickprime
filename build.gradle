@@ -58,7 +58,7 @@ tasks.named('processResources', ProcessResources).configure {
             loader_version_range: '[47,)',
             mod_id              : 'rickprime', mod_name: 'Rick Prime Mod',
             mod_license         : 'MIT', mod_version: '1.0.0',
-            mod_authors         : 'RickPrimeDev', mod_description: 'Custom Rick Prime mod compatible with Punchy and Architectury.'
+            mod_authors         : 'RickPrimeDev', mod_description: 'Custom Rick Prime mod with ground breakdown animation.'
     ]
     inputs.properties replaceProperties
     filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {

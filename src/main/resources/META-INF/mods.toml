@@ -7,7 +7,7 @@ modId="rickprime"
 version="1.0.0"
 displayName="Rick Prime Mod"
 authors="RickPrimeDev"
-description='''Custom Rick Prime mod compatible with Punchy, Punchy Moves and Architectury.'''
+description='''Custom Rick Prime mod with ground breakdown animation.'''
 
 [[dependencies.rickprime]]
     modId="forge"

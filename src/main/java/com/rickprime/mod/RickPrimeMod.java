@@ -72,14 +72,6 @@ public class RickPrimeMod {
                     playAnimation("animation10");
                 } else if (isBrokenDown) {
                     event.setCanceled(true);
-                } else {
-                    if (currentHealth / Minecraft.getInstance().player.getMaxHealth() <= 0.5f) {
-                        playAnimation("animation8");
-                    } else {
-                        String[] lightHits = {"animation", "animation2", "animation3", "animation4", "animation5"};
-                        int randomIdx = (int) (Math.random() * lightHits.length);
-                        playAnimation(lightHits[randomIdx]);
-                    }
                 }
             }
         }
