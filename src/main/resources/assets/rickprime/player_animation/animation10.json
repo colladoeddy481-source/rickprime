@@ -10,76 +10,36 @@
   "bones": {
     "head": {
       "0": {
-        "rotation": [
-          -90,
-          0,
-          0
-        ],
-        "position": [
-          0,
-          -17,
-          -6
-        ]
+        "rotation": [-90, 0, 0],
+        "position": [0, -17, -6]
       }
     },
     "torso": {
       "0": {
-        "rotation": [
-          112.5,
-          0,
-          0
-        ],
-        "position": [
-          0,
-          -8,
-          0
-        ]
+        "rotation": [112.5, 0, 0],
+        "position": [0, -8, 0]
       }
     },
     "rightArm": {
       "0": {
-        "rotation": [
-          92.5,
-          0,
-          0
-        ],
-        "position": [
-          0,
-          -11,
-          0
-        ]
+        "rotation": [92.5, 0, 0],
+        "position": [0, -11, 0]
       }
     },
     "leftArm": {
       "0": {
-        "rotation": [
-          -92.5,
-          0,
-          0
-        ],
-        "position": [
-          0,
-          -11,
-          0
-        ]
+        "rotation": [-92.5, 0, 0],
+        "position": [0, -11, 0]
       }
     },
     "rightLeg": {
       "0": {
-        "rotation": [
-          -92.5,
-          0,
-          0
-        ]
+        "rotation": [-92.5, 0, 0]
       }
     },
     "leftLeg": {
       "0": {
-        "rotation": [
-          92.5,
-          0,
-          0
-        ]
+        "rotation": [92.5, 0, 0]
       }
     }
   }
