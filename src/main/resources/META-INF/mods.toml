@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="rickprime"
+version="1.0.0"
+displayName="Rick Prime Mod"
+authors="RickPrimeDev"
+description='''Custom Rick Prime mod compatible with Punchy, Punchy Moves and Architectury.'''
+
+[[dependencies.rickprime]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rickprime]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rickprime]]
+    modId="playeranimator"
+    mandatory=true
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.rickprime]]
+    modId="architectury"
+    mandatory=false
+    versionRange="[9.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.rickprime]]
+    modId="punchy"
+    mandatory=false
+    versionRange="[3.0,)"
+    ordering="AFTER"
+    side="BOTH"

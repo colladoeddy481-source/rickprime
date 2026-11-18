@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "ease": "linear",
+  "beginTick": 0,
+  "endTick": 8,
+  "stopTick": 8,
+  "isLoop": false,
+  "returnTick": 0,
+  "hold": true,
+  "bones": {
+    "rightArm": {
+      "0": {
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "8": {
+        "rotation": [
+          92.5,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          -11,
+          0
+        ]
+      }
+    },
+    "leftArm": {
+      "0": {
+        "rotation": [
+          -92.5,
+          0,
+          0
+        ],
+        "position": [
+          0,
+          -11,
+          0
+        ]
+      }
+    }
+  }
+}
