@@ -2,88 +2,44 @@
   "version": 1,
   "ease": "linear",
   "beginTick": 0,
-  "endTick": 8,
-  "stopTick": 8,
+  "endTick": 1,
+  "stopTick": 1,
   "isLoop": false,
   "returnTick": 0,
   "hold": true,
   "bones": {
     "head": {
       "0": {
-        "position": [
-          0,
-          0,
-          0
-        ]
-      },
-      "8": {
-        "position": [
-          0,
-          -8,
-          0
-        ]
+        "rotation": [-90, 0, 0],
+        "position": [0, -17, -6]
       }
     },
     "torso": {
       "0": {
-        "position": [
-          0,
-          0,
-          0
-        ]
-      },
-      "8": {
-        "position": [
-          0,
-          -8,
-          0
-        ]
+        "rotation": [112.5, 0, 0],
+        "position": [0, -8, 0]
       }
     },
     "rightArm": {
       "0": {
-        "rotation": [
-          92.5,
-          0,
-          0
-        ],
-        "position": [
-          0,
-          -11,
-          0
-        ]
+        "rotation": [92.5, 0, 0],
+        "position": [0, -11, 0]
       }
     },
     "leftArm": {
       "0": {
-        "rotation": [
-          -92.5,
-          0,
-          0
-        ],
-        "position": [
-          0,
-          -11,
-          0
-        ]
+        "rotation": [-92.5, 0, 0],
+        "position": [0, -11, 0]
       }
     },
     "rightLeg": {
       "0": {
-        "rotation": [
-          -92.5,
-          0,
-          0
-        ]
+        "rotation": [-92.5, 0, 0]
       }
     },
     "leftLeg": {
       "0": {
-        "rotation": [
-          92.5,
-          0,
-          0
-        ]
+        "rotation": [92.5, 0, 0]
       }
     }
   }
